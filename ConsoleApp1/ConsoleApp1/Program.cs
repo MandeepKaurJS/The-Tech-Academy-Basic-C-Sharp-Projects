@@ -6,10 +6,11 @@ namespace ConsoleApp1
     {
         static void Main()
         {
-         
+            Console.WriteLine("Welcome to Acme Accounting Systems");
+            Console.WriteLine("Remember, we’re “accounting” on you!");
             Console.WriteLine("What is your name?");
             string name = Console.ReadLine();
-            Console.WriteLine("Hello " + name + "");
+            Console.WriteLine("Welcome to Acme Accounting System " + name + "");
             Console.Read();
            
         }
