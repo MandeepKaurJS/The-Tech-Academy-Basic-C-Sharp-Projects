@@ -12,7 +12,14 @@ namespace ConsoleApp1
             string name = Console.ReadLine();
             Console.WriteLine("Welcome to Acme Accounting System " + name + "");
             Console.Read();
-            
+            Console.WriteLine("How old are you?");
+            string age = Console.ReadLine();
+
+            //float yearsInCentury = 100f;
+            //float ageInCenturies = (float)age / yearsInCentury;
+           // Console.WriteLine("You are " + ageInCenturies + " centuries old.");
+
+            //Prints "You are .31 centuries old"
 
         }
     }

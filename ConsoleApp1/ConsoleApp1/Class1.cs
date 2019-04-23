@@ -6,5 +6,14 @@ namespace ConsoleApp1
 {
     class Class1
     {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Write Your favorite number?");
+            string favnumber = Console.ReadLine();
+            int favnum = Convert.ToInt32(favnumber);
+            int total = favnum + 5;
+            Console.WriteLine("Your favorite number plus 5 is :" + total);
+            Console.ReadLine();
+        }
     }
 }
