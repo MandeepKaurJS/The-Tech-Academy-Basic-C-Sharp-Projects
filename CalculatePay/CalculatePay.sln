@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.28803.202
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatePay", "CalculatePay.csproj", "{F5B01FF3-95D1-41F4-A290-94007FE4DB7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarInsuranceProgram", "..\CarInsuranceProgram\CarInsuranceProgram.csproj", "{AFF5BA33-1E87-46B8-8BCE-AD70FB2D2BDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F5B01FF3-95D1-41F4-A290-94007FE4DB7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5B01FF3-95D1-41F4-A290-94007FE4DB7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5B01FF3-95D1-41F4-A290-94007FE4DB7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFF5BA33-1E87-46B8-8BCE-AD70FB2D2BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFF5BA33-1E87-46B8-8BCE-AD70FB2D2BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFF5BA33-1E87-46B8-8BCE-AD70FB2D2BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFF5BA33-1E87-46B8-8BCE-AD70FB2D2BDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
