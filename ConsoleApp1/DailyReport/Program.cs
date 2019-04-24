@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace ConsoleApp1
+namespace DailyReport
 {
-    class DailyReport
+    class Program
     {
         static public void Main()
         {
@@ -12,7 +10,7 @@ namespace ConsoleApp1
             Console.WriteLine("Student Daily Report");
             Console.WriteLine("What course are you on?");
             String Course = Console.ReadLine();
-           // int chnage = Convert.ToInt32(Course);
+            // int chnage = Convert.ToInt32(Course);
             Console.WriteLine("What Page Number?");
             String page = Console.ReadLine();
             Console.WriteLine("Do you need help with anything? Please answer “true” or “false”.");
@@ -24,7 +22,7 @@ namespace ConsoleApp1
             Console.WriteLine("Is there any other feedback you’d like to provide? Please be specific.");
             string Otherexperience = Console.ReadLine();
             Console.WriteLine("How many hours did you study today?");
-            int hours=0; Console.ReadLine();
+            int hours = 0; Console.ReadLine();
             String changeHours = Convert.ToString(hours);
             Console.WriteLine("Thank you for your answers. An Instructor will respond to this shortly. Have a great day!");
         }
