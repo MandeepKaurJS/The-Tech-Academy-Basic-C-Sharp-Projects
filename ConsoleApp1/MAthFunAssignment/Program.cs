@@ -33,6 +33,14 @@ namespace MAthFunAssignment
             bool isnumGreater = Num > 50;
             Console.WriteLine(isnumGreater);
             Console.ReadLine();
+
+            /***Fifth Question ***/
+
+            Console.WriteLine("Enter an Integer");
+            int Divide = Convert.ToInt32(Console.ReadLine());
+            int divided = Divide % 7;
+            Console.WriteLine("Remainder is :" + divided);
+            Console.ReadLine();
         }
     }
 }
