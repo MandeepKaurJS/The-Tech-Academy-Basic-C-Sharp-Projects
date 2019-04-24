@@ -17,23 +17,23 @@ namespace ConsoleApp1
             Console.ReadLine();
             Console.Write("Substract two variables");
             int difference = 10 - 5;
-            Console.WriteLine("Ten Minus five"+difference);
+            Console.WriteLine("\n Ten Minus five"+difference);
             Console.ReadLine();
             Console.Write("Multiply two variables");
             int product = 10 * 5;
-            Console.WriteLine("" + product);
+            Console.WriteLine("\n" + product);
             Console.ReadLine();
             Console.Write("Divide two variables");
             int quotient = 100 / 5;
-            Console.WriteLine("Divide by 5" + quotient);
+            Console.WriteLine("\n Divide by 5" + quotient);
             Console.ReadLine();
             Console.Write("Divide decimal two variables");
             double quotient1 = 100.0 / 17.5;
-            Console.WriteLine("Divide by 17.5" + quotient1);
+            Console.WriteLine("\n Divide by 17.5" + quotient1);
             Console.ReadLine();
             Console.Write("Divide  two variables which gives remainder");
             int remainder = 10 % 2;
-            Console.WriteLine("Divide by 2" + remainder);
+            Console.WriteLine("\n Divide by 2" + remainder);
             Console.ReadLine();
         }
     }
