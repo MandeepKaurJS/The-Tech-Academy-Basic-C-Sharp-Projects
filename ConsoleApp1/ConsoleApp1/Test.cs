@@ -6,7 +6,7 @@ namespace ConsoleApp1
 {
     class Class1
     {
-        static void Main(string[] args)
+        static public void Main()
         {
             Console.WriteLine("Write Your favorite number?");
             string favnumber = Console.ReadLine();
