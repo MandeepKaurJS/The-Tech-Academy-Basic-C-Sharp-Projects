@@ -1,0 +1,11 @@
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp1\MAthFunAssignment\bin\Debug\netcoreapp2.1\MAthFunAssignment.deps.json
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp1\MAthFunAssignment\bin\Debug\netcoreapp2.1\MAthFunAssignment.runtimeconfig.json
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp1\MAthFunAssignment\bin\Debug\netcoreapp2.1\MAthFunAssignment.runtimeconfig.dev.json
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp1\MAthFunAssignment\bin\Debug\netcoreapp2.1\MAthFunAssignment.dll
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp1\MAthFunAssignment\bin\Debug\netcoreapp2.1\MAthFunAssignment.pdb
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp1\MAthFunAssignment\obj\Debug\netcoreapp2.1\MAthFunAssignment.csprojAssemblyReference.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp1\MAthFunAssignment\obj\Debug\netcoreapp2.1\MAthFunAssignment.csproj.CoreCompileInputs.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp1\MAthFunAssignment\obj\Debug\netcoreapp2.1\MAthFunAssignment.AssemblyInfoInputs.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp1\MAthFunAssignment\obj\Debug\netcoreapp2.1\MAthFunAssignment.AssemblyInfo.cs
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp1\MAthFunAssignment\obj\Debug\netcoreapp2.1\MAthFunAssignment.dll
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp1\MAthFunAssignment\obj\Debug\netcoreapp2.1\MAthFunAssignment.pdb
