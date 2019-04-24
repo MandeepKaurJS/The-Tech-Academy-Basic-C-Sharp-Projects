@@ -1,0 +1,10 @@
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp1\MATH_AND_COMPARISON_OPERATORS\bin\Debug\netcoreapp2.1\MATH_AND_COMPARISON_OPERATORS.deps.json
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp1\MATH_AND_COMPARISON_OPERATORS\bin\Debug\netcoreapp2.1\MATH_AND_COMPARISON_OPERATORS.runtimeconfig.json
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp1\MATH_AND_COMPARISON_OPERATORS\bin\Debug\netcoreapp2.1\MATH_AND_COMPARISON_OPERATORS.runtimeconfig.dev.json
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp1\MATH_AND_COMPARISON_OPERATORS\bin\Debug\netcoreapp2.1\MATH_AND_COMPARISON_OPERATORS.dll
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp1\MATH_AND_COMPARISON_OPERATORS\bin\Debug\netcoreapp2.1\MATH_AND_COMPARISON_OPERATORS.pdb
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp1\MATH_AND_COMPARISON_OPERATORS\obj\Debug\netcoreapp2.1\MATH_AND_COMPARISON_OPERATORS.csproj.CoreCompileInputs.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp1\MATH_AND_COMPARISON_OPERATORS\obj\Debug\netcoreapp2.1\MATH_AND_COMPARISON_OPERATORS.AssemblyInfoInputs.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp1\MATH_AND_COMPARISON_OPERATORS\obj\Debug\netcoreapp2.1\MATH_AND_COMPARISON_OPERATORS.AssemblyInfo.cs
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp1\MATH_AND_COMPARISON_OPERATORS\obj\Debug\netcoreapp2.1\MATH_AND_COMPARISON_OPERATORS.dll
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ConsoleApp1\MATH_AND_COMPARISON_OPERATORS\obj\Debug\netcoreapp2.1\MATH_AND_COMPARISON_OPERATORS.pdb
