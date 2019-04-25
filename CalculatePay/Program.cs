@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CalculatePay
+namespace dummy
 {
     class Program
     {
@@ -24,7 +24,7 @@ namespace CalculatePay
             rate = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Hours worked per week?");
             weeks = Convert.ToInt32(Console.ReadLine());
-            
+
             /****Person 2***/
             Console.WriteLine("Person 2");
             Console.ReadLine();
@@ -33,7 +33,7 @@ namespace CalculatePay
             Console.WriteLine("Hours worked per week?");
             weeks = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Annual salary of Person 1:");
-             Pay = Convert.ToInt64(Console.ReadLine());
+            Pay = Convert.ToInt64(Console.ReadLine());
             Console.WriteLine("Annual salary of Person 2:");
             Pay2 = Convert.ToInt64(Console.ReadLine());
             TotalPayperson2 = rate * weeks;//+ Pay2;

@@ -1,7 +1,0 @@
-C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\CalculatePay\bin\Debug\CalculatePay.exe.config
-C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\CalculatePay\bin\Debug\CalculatePay.exe
-C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\CalculatePay\bin\Debug\CalculatePay.pdb
-C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\CalculatePay\obj\Debug\CalculatePay.csprojAssemblyReference.cache
-C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\CalculatePay\obj\Debug\CalculatePay.csproj.CoreCompileInputs.cache
-C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\CalculatePay\obj\Debug\CalculatePay.exe
-C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\CalculatePay\obj\Debug\CalculatePay.pdb

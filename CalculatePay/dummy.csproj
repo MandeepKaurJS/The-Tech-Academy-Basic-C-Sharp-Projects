@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F5B01FF3-95D1-41F4-A290-94007FE4DB7F}</ProjectGuid>
+    <ProjectGuid>{22E562BD-5778-4CB1-AED2-1318BC0B399C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CalculatePay</RootNamespace>
-    <AssemblyName>CalculatePay</AssemblyName>
+    <RootNamespace>dummy</RootNamespace>
+    <AssemblyName>dummy</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,9 +31,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>CalculatePay.Class1</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
