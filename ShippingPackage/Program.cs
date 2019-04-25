@@ -31,14 +31,14 @@ namespace ShippingPackage
                 int height = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine("Please enter the package length:");
                 int length = Convert.ToInt32(Console.ReadLine());
-                int sum = width+height + length;
+                float sum = (width+height + length);
                 if(sum > 50)
                 {
                     Console.WriteLine("Package too big to be shipped via Package Express.");
                 }
                 else
                 {
-                    int SumOfall = sum * weight / 100;
+                    float SumOfall = (sum * weight) / 100;
                     Console.WriteLine("Your estimated total for shipping this package is:" +
                      " $" + SumOfall + "\nThank You");
                 }
