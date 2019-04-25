@@ -17,6 +17,7 @@ namespace CalculatePay
             long Pay;
             long Pay2;
             Console.WriteLine("Anonymous Income Comparison Program");
+           
             Console.WriteLine("Person 1");
             Console.WriteLine("Hourly Rate?");
             rate = Convert.ToInt32(Console.ReadLine());
