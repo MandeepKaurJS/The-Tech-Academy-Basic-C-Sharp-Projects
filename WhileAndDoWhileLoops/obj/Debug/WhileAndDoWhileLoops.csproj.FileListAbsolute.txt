@@ -1,0 +1,7 @@
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\WhileAndDoWhileLoops\bin\Debug\WhileAndDoWhileLoops.exe.config
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\WhileAndDoWhileLoops\bin\Debug\WhileAndDoWhileLoops.exe
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\WhileAndDoWhileLoops\bin\Debug\WhileAndDoWhileLoops.pdb
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\WhileAndDoWhileLoops\obj\Debug\WhileAndDoWhileLoops.csprojAssemblyReference.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\WhileAndDoWhileLoops\obj\Debug\WhileAndDoWhileLoops.csproj.CoreCompileInputs.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\WhileAndDoWhileLoops\obj\Debug\WhileAndDoWhileLoops.exe
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\WhileAndDoWhileLoops\obj\Debug\WhileAndDoWhileLoops.pdb
