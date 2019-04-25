@@ -19,7 +19,7 @@ namespace StringAssignment
             Console.WriteLine("To see everything into one line press enter");
             Console.ReadLine();
             String join = "I'm "+name + "I am "+ work +"I "+ hours;
-            Console.WriteLine("MY Current Status \n" + join);
+            Console.WriteLine("MY Current Status is \n" + join);
             Console.ReadLine();
             join=join.ToUpper();
             Console.WriteLine("Now I'm in Upper Case \n"+join);
