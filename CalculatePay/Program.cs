@@ -17,8 +17,9 @@ namespace CalculatePay
             long Pay;
             long Pay2;
             Console.WriteLine("Anonymous Income Comparison Program");
-           
+            Console.ReadLine();
             Console.WriteLine("Person 1");
+            Console.ReadLine();
             Console.WriteLine("Hourly Rate?");
             rate = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Hours worked per week?");
@@ -26,6 +27,7 @@ namespace CalculatePay
             
             /****Person 2***/
             Console.WriteLine("Person 2");
+            Console.ReadLine();
             Console.WriteLine("Hourly Rate?");
             rate = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Hours worked per week?");
