@@ -13,11 +13,14 @@ namespace ArrayAndListItration
         {
             Console.WriteLine("Enter some text");
             string enter = Console.ReadLine();
-            string[] value= new string[100];
-            for(var i = 0; i <100; i++)
+            string[] value= new string[10];
+            for(var i = 0; i <10; i++)
             {
-                value[i] = enter;
-            }
+                    value[i] = enter;
+                    Console.WriteLine("I'm Entered"+value[i]);
+                    Console.ReadLine();
+                }
+            Console.ReadLine();
         }
     }
 }
