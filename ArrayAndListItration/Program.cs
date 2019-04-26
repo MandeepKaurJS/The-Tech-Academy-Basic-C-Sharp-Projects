@@ -11,18 +11,16 @@ namespace ArrayAndListItration
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter some text");
-            string enter = Console.ReadLine();
             string[] value= new string[10];
-            for(var i = 0; i <10; i++)
+            int i = 0;
+            for(i = 0; i <10; i++)
             {
-                if (value == null)
-                {
-                    value[i] = enter;
-                    Console.WriteLine("I'm Entered" + value[i]);
-                    Console.ReadLine();
-                }
+                Console.WriteLine("Enter some text");
+                value[i] = Console.ReadLine();
+                Console.WriteLine(value[i]);
+                
             }
+
             Console.ReadLine();
         }
     }

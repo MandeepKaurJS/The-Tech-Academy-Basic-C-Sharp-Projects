@@ -48,8 +48,8 @@ namespace ArrayIndexAssignment
             }
             catch (System.IndexOutOfRangeException ex) 
             {
-                System.ArgumentException argEx = new System.ArgumentException("Index is out of range", "index", ex);
-                throw argEx;
+                System.Console.Write(ex.Message);
+                Console.WriteLine("index not exist");
             }
             Console.ReadLine();
             
