@@ -16,10 +16,13 @@ namespace ArrayAndListItration
             string[] value= new string[10];
             for(var i = 0; i <10; i++)
             {
+                if (value == null)
+                {
                     value[i] = enter;
-                    Console.WriteLine("I'm Entered"+value[i]);
+                    Console.WriteLine("I'm Entered" + value[i]);
                     Console.ReadLine();
                 }
+            }
             Console.ReadLine();
         }
     }

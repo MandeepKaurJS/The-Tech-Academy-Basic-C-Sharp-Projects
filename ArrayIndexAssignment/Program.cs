@@ -12,112 +12,48 @@ namespace ArrayIndexAssignment
         {
             string[] array = {"Mandeep","Kaur","Tech","Acedemy","C#",
             ".NET","Done"};
-            int[] num = { 1, 2, 3, 4, 2,6 };
+            int[] num = { 11, 12, 13, 14, 22,26 };
             List<String> inList = new List<string>()
             {"Varinder","Singh","Northwest","university" };
             Console.WriteLine("select an index :");
-            int user = Convert.ToInt32(Console.ReadLine());
-            if (user == 1)
+            try
             {
-                Console.WriteLine(array[0]);
+                int user = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine(array[user]);
                 Console.ReadLine();
             }
-            else if (user == 2)
+            catch (IndexOutOfRangeException e)
             {
-                Console.WriteLine(array[1]);
+                System.Console.Write(e.Message);
+                Console.WriteLine("Index not exist");
                 Console.ReadLine();
+                
             }
-            else if (user == 3)
+            try
             {
-                Console.WriteLine(array[2]);
-                Console.ReadLine();
+                Console.WriteLine("Select an index for number");
+                int number = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine(num[number]);
             }
-            else if (user == 4)
+            catch(IndexOutOfRangeException e)
             {
-                Console.WriteLine(array[3]);
-                Console.ReadLine();
+                System.Console.Write(e.Message);
+                Console.WriteLine("index not exist");
             }
-            else if (user == 5)
+            try
             {
-                Console.WriteLine(array[4]);
-                Console.ReadLine();
+                Console.WriteLine("Select an index for list");
+                int list = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine(inList[list]);
             }
-            else if (user == 6)
+            catch (System.IndexOutOfRangeException ex) 
             {
-                Console.WriteLine(array[5]);
-                Console.ReadLine();
+                System.Console.Write(ex.Message);
+                throw new System.ArgumentOutOfRangeException
+                    ("index parameter is out of range.", ex);
             }
-            else
-            {
-                Console.WriteLine("Index doesn't exist");
-                Console.ReadLine();
-            }
-            Console.WriteLine("select an index for number :");
-            int number = Convert.ToInt32(Console.ReadLine());
+            Console.ReadLine();
             
-            if (number == 1)
-            {
-                Console.WriteLine(num[0]);
-                Console.ReadLine();
-            }
-            else if (number == 2)
-            {
-                Console.WriteLine(num[1]);
-                Console.ReadLine();
-            }
-            else if (number == 3)
-            {
-                Console.WriteLine(num[2]);
-                Console.ReadLine();
-            }
-            else if (number == 4)
-            {
-                Console.WriteLine(num[3]);
-                Console.ReadLine();
-            }
-            else if (number == 5)
-            {
-                Console.WriteLine(num[4]);
-                Console.ReadLine();
-            }
-            else if (number == 6)
-            {
-                Console.WriteLine(num[5]);
-                Console.ReadLine();
-            }
-            else
-            {
-                Console.WriteLine("Index doesn't exist");
-                Console.ReadLine();
-            }
-            Console.WriteLine("select an index for List element :");
-            int list = Convert.ToInt32(Console.ReadLine());
-
-            if (list == 1)
-            {
-                Console.WriteLine(inList[0]);
-                Console.ReadLine();
-            }
-            else if (list == 2)
-            {
-                Console.WriteLine(inList[1]);
-                Console.ReadLine();
-            }
-            else if (list == 3)
-            {
-                Console.WriteLine(inList[2]);
-                Console.ReadLine();
-            }
-            else if (list == 4)
-            {
-                Console.WriteLine(inList[3]);
-                Console.ReadLine();
-            }
-            else
-            {
-                Console.WriteLine("index doesn't Exist");
-                Console.ReadLine();
-            }
 
         }
 
