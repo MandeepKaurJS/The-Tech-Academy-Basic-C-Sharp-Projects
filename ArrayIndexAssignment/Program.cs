@@ -51,6 +51,10 @@ namespace ArrayIndexAssignment
                 System.Console.Write(ex.Message);
                 Console.WriteLine("index not exist");
             }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
             Console.ReadLine();
             
 
