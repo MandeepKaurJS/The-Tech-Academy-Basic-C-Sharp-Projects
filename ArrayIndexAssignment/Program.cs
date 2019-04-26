@@ -43,14 +43,13 @@ namespace ArrayIndexAssignment
             try
             {
                 Console.WriteLine("Select an index for list");
-                int list = Convert.ToInt32(Console.ReadLine());
+                int list =Int32.Parse(Console.ReadLine().ToString());
                 Console.WriteLine(inList[list]);
             }
             catch (System.IndexOutOfRangeException ex) 
             {
-                System.Console.Write(ex.Message);
-                throw new System.ArgumentOutOfRangeException
-                    ("index parameter is out of range.", ex);
+                System.ArgumentException argEx = new System.ArgumentException("Index is out of range", "index", ex);
+                throw argEx;
             }
             Console.ReadLine();
             
