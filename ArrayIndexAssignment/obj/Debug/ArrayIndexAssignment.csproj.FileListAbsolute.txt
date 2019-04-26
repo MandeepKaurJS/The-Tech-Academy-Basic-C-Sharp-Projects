@@ -1,0 +1,7 @@
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ArrayIndexAssignment\bin\Debug\ArrayIndexAssignment.exe.config
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ArrayIndexAssignment\bin\Debug\ArrayIndexAssignment.exe
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ArrayIndexAssignment\bin\Debug\ArrayIndexAssignment.pdb
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ArrayIndexAssignment\obj\Debug\ArrayIndexAssignment.csprojAssemblyReference.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ArrayIndexAssignment\obj\Debug\ArrayIndexAssignment.csproj.CoreCompileInputs.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ArrayIndexAssignment\obj\Debug\ArrayIndexAssignment.exe
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\ArrayIndexAssignment\obj\Debug\ArrayIndexAssignment.pdb
