@@ -10,7 +10,7 @@ namespace CardsGame
     {
         static void Main(string[] args)
         {
-
+            Card cardOne = new Card();
         }
     }
 }
