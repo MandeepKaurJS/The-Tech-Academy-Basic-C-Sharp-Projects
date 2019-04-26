@@ -121,6 +121,7 @@ namespace ArrayAndListItration
                         foreach(var group in duplicates)
                         {
                             Console.WriteLine("Duplicate values into list index {0}:" + group.index);
+                            
                         }
                     }
                     else if (search == k.ToString())
