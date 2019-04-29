@@ -10,12 +10,29 @@ namespace CardsGame
     {
         static void Main(string[] args)
         {
-            Card cardOne = new Card();
-            //cardOne.Face = "Queen";
-            //cardOne.Suit = "Spades";
-            Console.WriteLine(cardOne.Face + " of " + cardOne.Suit);
+            Deck deck = new Deck();
+            deck = Shuffle(deck);
+            foreach(Card card in deck.Cards)
+            {
+                Console.WriteLine(card.Face + " of " + card.Suit);
+            }
+            Console.WriteLine(deck.Cards.Count);
             Console.ReadLine();
 
+        }
+        public static Deck Shuffle(Deck deck)
+        {
+            List<Card> templist = new List<Card>();
+            Random random = new Random();
+            while (deck.Cards.Count > 0)
+            {
+                int randomIndex = random.Next(0, deck.Cards.Count);
+                templist.Add(deck.Cards[randomIndex]);
+                deck.Cards.RemoveAt(randomIndex);
+            }
+            deck.Cards = templist;
+            return deck;
+            
         }
     }
 }
