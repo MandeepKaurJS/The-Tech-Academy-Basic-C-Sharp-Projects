@@ -11,7 +11,17 @@ namespace CardsGame
         static void Main(string[] args)
         {
             Deck deck = new Deck();
-            
+            //Game game = new Game();
+            //game.Dealer = "Mandeep";
+            //game.Name = "TwentyOne";
+            //TwentyOne game = new TwentyOne();
+            //game.Players = new List<string>()
+            //{
+            //    "Mandeep","Shruti","anubha"
+            //};
+            //game.ListPlayer();
+            //game.play();
+            //Console.ReadLine();
             int shuffled = 0;
             deck = Shuffle(deck,out shuffled,3);
             foreach(Card card in deck.Cards)
