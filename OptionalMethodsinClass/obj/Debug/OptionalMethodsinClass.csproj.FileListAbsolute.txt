@@ -1,0 +1,7 @@
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\OptionalMethodsinClass\bin\Debug\OptionalMethodsinClass.exe.config
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\OptionalMethodsinClass\bin\Debug\OptionalMethodsinClass.exe
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\OptionalMethodsinClass\bin\Debug\OptionalMethodsinClass.pdb
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\OptionalMethodsinClass\obj\Debug\OptionalMethodsinClass.csprojAssemblyReference.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\OptionalMethodsinClass\obj\Debug\OptionalMethodsinClass.csproj.CoreCompileInputs.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\OptionalMethodsinClass\obj\Debug\OptionalMethodsinClass.exe
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\OptionalMethodsinClass\obj\Debug\OptionalMethodsinClass.pdb
