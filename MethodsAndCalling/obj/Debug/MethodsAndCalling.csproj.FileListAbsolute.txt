@@ -1,0 +1,7 @@
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MethodsAndCalling\bin\Debug\MethodsAndCalling.exe.config
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MethodsAndCalling\bin\Debug\MethodsAndCalling.exe
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MethodsAndCalling\bin\Debug\MethodsAndCalling.pdb
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MethodsAndCalling\obj\Debug\MethodsAndCalling.csprojAssemblyReference.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MethodsAndCalling\obj\Debug\MethodsAndCalling.csproj.CoreCompileInputs.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MethodsAndCalling\obj\Debug\MethodsAndCalling.exe
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MethodsAndCalling\obj\Debug\MethodsAndCalling.pdb
