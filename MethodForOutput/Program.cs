@@ -10,6 +10,11 @@ namespace MethodForOutput
     {
         static void Main(string[] args)
         {
+          MethodCalls getcall = new MethodCalls();
+            int answer;
+            getcall.getValue(out answer);
+            
+            Console.ReadLine();
         }
     }
 }
