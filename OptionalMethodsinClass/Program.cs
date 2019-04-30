@@ -17,9 +17,13 @@ namespace OptionalMethodsinClass
             int result2 = 0;
             Console.ReadLine();
             number.Additon(result);
-            
+            Console.ReadLine();
             number.Additon(result, result2);
+            Console.ReadLine();
             number.Additon(result, result2);
+            Console.ReadLine();
+            number.Additon(result, result2);
+            Console.ReadLine();
             number.Additon(result);
             Console.ReadLine();
         }
