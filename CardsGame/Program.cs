@@ -11,6 +11,7 @@ namespace CardsGame
         static void Main(string[] args)
         {
             Deck deck = new Deck();
+            
             int shuffled = 0;
             deck = Shuffle(deck,out shuffled,3);
             foreach(Card card in deck.Cards)
