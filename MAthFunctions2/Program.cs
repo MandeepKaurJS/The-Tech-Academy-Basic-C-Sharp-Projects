@@ -10,6 +10,16 @@ namespace MAthFunctions2
     {
         static void Main(string[] args)
         {
+            Methodsclass calling = new Methodsclass();
+            Console.WriteLine("Enter any number : ");
+            int number = Convert.ToInt32(Console.ReadLine());
+            int result=0;
+            calling.Addition(number,result);
+            Console.WriteLine(result);
+            Console.ReadLine();
+            calling.Substraction(num: number, num3: result);
+            Console.WriteLine(result);
+            Console.ReadLine();
         }
     }
 }

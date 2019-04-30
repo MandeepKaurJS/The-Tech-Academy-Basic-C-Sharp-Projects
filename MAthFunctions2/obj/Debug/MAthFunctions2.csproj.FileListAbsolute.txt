@@ -1,0 +1,7 @@
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MAthFunctions2\bin\Debug\MAthFunctions2.exe.config
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MAthFunctions2\bin\Debug\MAthFunctions2.exe
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MAthFunctions2\bin\Debug\MAthFunctions2.pdb
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MAthFunctions2\obj\Debug\MAthFunctions2.csprojAssemblyReference.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MAthFunctions2\obj\Debug\MAthFunctions2.csproj.CoreCompileInputs.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MAthFunctions2\obj\Debug\MAthFunctions2.exe
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MAthFunctions2\obj\Debug\MAthFunctions2.pdb
