@@ -6,15 +6,12 @@ using System.Threading.Tasks;
 
 namespace InheritanceClass
 {
-   public class Person
+   public class Employee:Person
     {
-        public  string FirstName;
-        public string LastName;
-        public void SayName()
+        public int id;
+        public void showid()
         {
-           Console.WriteLine(FirstName + " " + LastName);
-
-
+            Console.WriteLine("Employee id: "+id);
         }
     }
     

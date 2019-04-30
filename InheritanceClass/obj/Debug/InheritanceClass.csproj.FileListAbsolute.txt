@@ -1,0 +1,7 @@
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\InheritanceClass\bin\Debug\InheritanceClass.exe.config
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\InheritanceClass\bin\Debug\InheritanceClass.exe
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\InheritanceClass\bin\Debug\InheritanceClass.pdb
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\InheritanceClass\obj\Debug\InheritanceClass.csprojAssemblyReference.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\InheritanceClass\obj\Debug\InheritanceClass.csproj.CoreCompileInputs.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\InheritanceClass\obj\Debug\InheritanceClass.exe
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\InheritanceClass\obj\Debug\InheritanceClass.pdb

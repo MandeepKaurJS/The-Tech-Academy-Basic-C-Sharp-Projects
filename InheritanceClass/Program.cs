@@ -10,6 +10,17 @@ namespace InheritanceClass
     {
         static void Main(string[] args)
         {
+            Employee emp = new Employee();
+            Person name = new Person();
+            emp.id = 1;
+            emp.FirstName = "Sample";
+            emp.LastName = "Student";
+            emp.showid();
+            name.FirstName = "Mandeep";
+            name.LastName = "Kaur";
+            name.SayName();
+            emp.SayName();
+           Console.ReadLine();
         }
     }
 }
