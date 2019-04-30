@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace MethodForOutput
 {
-    class MethodCalls
+    static class MethodCalls
     {
-        public void getValue(out int x)
+       public static void getValue(out int x)
         {
 
 
@@ -19,6 +19,14 @@ namespace MethodForOutput
             x = answer / 2;
                 Console.WriteLine("Number after dividing by two : " + x);
             
+        }
+        public static void getValue(out double y)
+        {
+            double ans;
+            Console.WriteLine("Enter another number");
+            ans = Convert.ToDouble(Console.ReadLine());
+            y = ans* 2;
+            Console.WriteLine("number after diving deci mal number: "+y);
         }
     }
 }
