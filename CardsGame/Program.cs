@@ -11,7 +11,13 @@ namespace CardsGame
         static void Main(string[] args)
         {
             Deck deck = new Deck();
-            //Game game = new Game();
+            TwentyOne game = new TwentyOne();
+            game.Players = new List<string>()
+            {
+                "Jasse","Mandeep"
+            };
+            game.ListPlayer();
+            Console.ReadLine();
             //game.Dealer = "Mandeep";
             //game.Name = "TwentyOne";
             //TwentyOne game = new TwentyOne();
