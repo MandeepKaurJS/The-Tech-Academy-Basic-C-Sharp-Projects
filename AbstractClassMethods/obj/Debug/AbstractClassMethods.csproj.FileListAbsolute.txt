@@ -4,3 +4,4 @@ C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\
 C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AbstractClassMethods\obj\Debug\AbstractClassMethods.csproj.CoreCompileInputs.cache
 C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AbstractClassMethods\obj\Debug\AbstractClassMethods.exe
 C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AbstractClassMethods\obj\Debug\AbstractClassMethods.pdb
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AbstractClassMethods\obj\Debug\AbstractClassMethods.csprojAssemblyReference.cache
