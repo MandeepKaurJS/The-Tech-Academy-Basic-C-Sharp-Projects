@@ -13,15 +13,18 @@ namespace InheritanceClass
 
             
            Employee<string> UserName = new  Employee<string>();
-            UserName.AddItems("Mandeep");
-            UserName.AddItems("Mandeep");
-            UserName.AddItems("Mandeep");
-            UserName.AddItems("Mandeep");
+           
+            List<int> num = new List<int>()
+            {
+                1,2,3,4,5,6,7
+            };
+            List<string> name = new List<string>()
+            {
+                "Mandeep","Kaur","Sidhu","Dulay"
+            };
            Employee<int> number = new Employee<int>();
-            number.AddItems(1);
-            number.AddItems(2);
-            number.AddItems(3);
-            number.AddItems(4);
+            UserName.AddItems(name);
+            number.AddItems(num);
             number.showResult();
             UserName.showResult();
             Console.ReadLine();
@@ -61,7 +64,7 @@ namespace InheritanceClass
             //name.SayName();
             //emp.showid();
             //emp.SayName();
-           Console.ReadLine();
+           //Console.ReadLine();
         }
     }
 }

@@ -15,52 +15,55 @@ namespace InheritanceClass
         {
             this.things = new List<T>();
         }
-        public void AddItems(T newItem)
+        public void AddItems(List<T> newItem)
         {
             
-                things.Add(newItem);
-                //Console.WriteLine(newItem);
+                things.AddRange(newItem);
+                Console.WriteLine(newItem);
+
         }
         public void showResult()
         {
             foreach (var items in things)
             {
-                Console.WriteLine(items.ToString());
+              Console.WriteLine(items);
             }
         }
 
        
 
         public T genericProperty { get; set; }
-    
+
+       
 
 
-    //return things;
+
+        //return things;
 
 
-    //public static bool operator ==(Employee employee, Employee otherEmployee)
-    //{
-    //    if (employee.id == otherEmployee.id)
-    //    {
-    //        return true;
-    //    }else
-    //    {
-    //        return false;
-    //    }
-    //}
-    //public static bool operator !=(Employee employee, Employee otherEmployee)
-    //{
-    //    if (employee.id != otherEmployee.id)
-    //    {
-    //        return true;
-    //    }
-    //    else
-    //    {
-    //        return false;
-    //    }
-    //    //return employee;
-    //}
+        //public static bool operator ==(Employee employee, Employee otherEmployee)
+        //{
+        //    if (employee.id == otherEmployee.id)
+        //    {
+        //        return true;
+        //    }else
+        //    {
+        //        return false;
+        //    }
+        //}
+        //public static bool operator !=(Employee employee, Employee otherEmployee)
+        //{
+        //    if (employee.id != otherEmployee.id)
+        //    {
+        //        return true;
+        //    }
+        //    else
+        //    {
+        //        return false;
+        //    }
+        //    //return employee;
+        //}
 
-}
+    }
 
 }

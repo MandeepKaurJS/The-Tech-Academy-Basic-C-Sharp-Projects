@@ -40,11 +40,14 @@ namespace LambdaFunProject
                 Console.ReadLine();
 
             }
+            List<Program> empName = new List<Program>();
             foreach (Program list in emplist)
             {
                 if (list.Firstname == "joe")
                 {
-                    Console.WriteLine("Here is me whose First name is: " + list.Firstname);
+                    empName.Add(list);
+                    Console.WriteLine("Here is me whose First name " +
+                        "is: " + list.Firstname);
                     // Console.ReadLine();
                 }
 
