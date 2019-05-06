@@ -11,18 +11,17 @@ namespace InheritanceClass
         static void Main(string[] args)
         {
 
-            Employee<int> intvar = new Employee<int>();
-            Employee<string> name = new Employee<string>();
-            List<int> val = new List<int>()
-            {
-                1,2,3,4,5,6
-            };
-            for(int i = 0; i < val.Count;i++)
-            {
-                intvar.things = val;
-                val.Add(i);
-            }
-            intvar.genericResult();
+            
+           Employee<string> name = new  Employee<string>("mandeep:");
+            
+           Employee<int> number = new Employee<int>(2);
+
+            name.genericMethod("Mandeep","mamdeep");
+            
+            Console.ReadLine();
+
+
+            
 
             //for (int i = 0; i < 10; i++)
             //{

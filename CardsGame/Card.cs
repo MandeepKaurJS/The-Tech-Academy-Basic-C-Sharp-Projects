@@ -10,10 +10,14 @@ namespace CardsGame
     {
         public Card()
         {
-            Suit = "Spades";
+            //Suit = "Spades";
             Face = "Two";
         }
-        public string Suit { get; set; }
+        public Suit Suit { get; set; }
         public string Face { get; set; }
+    }
+    public enum Suit
+    {
+        spades,dimonds
     }
 }
