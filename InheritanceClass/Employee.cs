@@ -9,18 +9,27 @@ namespace InheritanceClass
     public class Employee<T>
     {
         public int id;
-        private T genericMemberVariable;
+        private List<T> things;
 
-        public Employee(T value)
+        public Employee()
         {
-            genericMemberVariable = value;
+            this.things = new List<T>();
         }
-
-        public void genericMethod<T>(this List<T> items,params T[] genericParameter)
+        public void AddItems(T newItem)
         {
-            items.AddRange(genericParameter);
             
+                things.Add(newItem);
+                //Console.WriteLine(newItem);
         }
+        public void showResult()
+        {
+            foreach (var items in things)
+            {
+                Console.WriteLine(items.ToString());
+            }
+        }
+
+       
 
         public T genericProperty { get; set; }
     

@@ -12,12 +12,18 @@ namespace InheritanceClass
         {
 
             
-           Employee<string> name = new  Employee<string>("mandeep:");
-            
-           Employee<int> number = new Employee<int>(2);
-
-            name.genericMethod("Mandeep","mamdeep");
-            
+           Employee<string> UserName = new  Employee<string>();
+            UserName.AddItems("Mandeep");
+            UserName.AddItems("Mandeep");
+            UserName.AddItems("Mandeep");
+            UserName.AddItems("Mandeep");
+           Employee<int> number = new Employee<int>();
+            number.AddItems(1);
+            number.AddItems(2);
+            number.AddItems(3);
+            number.AddItems(4);
+            number.showResult();
+            UserName.showResult();
             Console.ReadLine();
 
 
