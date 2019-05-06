@@ -8,8 +8,16 @@ namespace StructProject
 {
     class Program
     {
+        struct Amount
+        {
+            public double amount;
+        };
         static void Main(string[] args)
         {
+            Amount a;
+            a.amount = 5.5;
+            Console.WriteLine("Decimal value is : " + a.amount);
+            Console.ReadLine();
         }
     }
 }
