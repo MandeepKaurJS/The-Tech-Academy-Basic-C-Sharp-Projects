@@ -17,10 +17,11 @@ namespace EnumsProject
             }
             Console.ReadLine();
             Console.WriteLine("Enter current day of week");
-            try
-            {
+            
                 days value = 0;
                 if (days.TryParse(Console.ReadLine(), out value))
+                {
+                try
                 {
                     if (Enum.IsDefined(typeof(days), value))
                     {
@@ -29,11 +30,15 @@ namespace EnumsProject
                         Console.ReadLine();
                     }
                 }
-            }catch(Exception)
-            {
-                Console.WriteLine("Please enter an actual day of the week.");
+                catch (Exception)
+                {
+                    Console.WriteLine("Please enter an actual day of the week.");
+                    Console.ReadLine();
+
+                }
             }
-           
+            
+            Console.ReadLine();
                 //Console.WriteLine(day.ToString());
 
             
