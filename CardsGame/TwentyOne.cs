@@ -20,6 +20,7 @@ namespace CardsGame
             Dealer.Hand = new List<Card>();
             Dealer.Stay = false;
             Dealer.Deck = new Deck();
+            Dealer.Deck.Shuffle();
             Console.WriteLine("Place your bet!");
             foreach(Player player in Players)
             {
@@ -43,7 +44,7 @@ namespace CardsGame
                         bool blackJack = TwentyOneRules.CheckForBlackJack(player.Hand);
                         if (blackJack)
                         {
-                            Console.WriteLine("BlackJck {0}: wins {1]}:",player.Name,Bets[player]);
+                            Console.WriteLine("BlackJck {0}: wins {1}}:",player.Name,Bets[player]);
                             player.Balance += Convert.ToInt32(Bets[player] * 1.5 + Bets[player]);
 
                             return;
@@ -57,11 +58,12 @@ namespace CardsGame
                     bool blackJack = TwentyOneRules.CheckForBlackJack(Dealer.Hand);
                     if (blackJack)
                     {
-                        Console.WriteLine("deals has BlackJAck EveryObe losses");
+                        Console.WriteLine("Dealers has BlackJAck EveryOne losses");
                         foreach(KeyValuePair<Player,int> entry in Bets)
                         {
                             Dealer.Balacne += entry.Value;
                         }
+                        return;
                     }
                 }
             }
@@ -86,17 +88,19 @@ namespace CardsGame
                     if (busted)
                     {
                         Dealer.Balacne += Bets[player];
-                        Console.WriteLine("{0} Busted! Ypu lose bet of {1}." +
+                        Console.WriteLine("{0} Busted! You lose bet of {1}." +
                             "Your balance is now{2}.", player.Name,Bets[player],player.Balance);
                         Console.WriteLine("Do you want to play again?");
                         answer = Console.ReadLine().ToLower();
                         if (answer == "yes" || answer == "yeah")
                         {
                             player.isActivePlaying = true;
+                            return;
                         }
                         else
                         {
                             player.isActivePlaying = false;
+                            return;
                         }
                     }
                 }
