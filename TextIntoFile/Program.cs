@@ -13,7 +13,7 @@ namespace TextIntoFile
             /* ask for a number to user*/
             Console.WriteLine("Type a number : ");
             string number =(Console.ReadLine());
-            /*** File will take entered number from user and put it into text file by using this statement***/
+            /*** we will pass entered number from user and put it into text file by using this statement***/
             File.WriteAllText(@"C:\Users\VrinMan Dulay\Documents\test.txt", number.ToString());
             /***By using this statement we can read the text entered by user***/
             
