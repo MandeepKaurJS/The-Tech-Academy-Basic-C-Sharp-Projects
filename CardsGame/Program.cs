@@ -10,8 +10,7 @@ namespace CardsGame
     {
         static void Main(string[] args)
         {
-            string text = File.ReadAllText(@"C:\Users\VrinMan Dulay\Documents\test.txt"); 
-            
+            DateTime datetime = new DateTime(1995, 5, 23, 8, 32, 45);           
             Console.WriteLine("Welcome to the Grand Hotel and Casino." +
                 "Let's start by telling me your name: ");
             string playerName = Console.ReadLine();
