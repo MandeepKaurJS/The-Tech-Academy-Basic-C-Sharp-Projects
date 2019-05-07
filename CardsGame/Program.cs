@@ -9,6 +9,8 @@ namespace CardsGame
 {
     class Program
     {
+        
+        Player newPlayer = new Player("Mandeep");
         static void Main(string[] args)
         {
             DateTime datetime = new DateTime(1995, 5, 23, 8, 32, 45);           
@@ -17,11 +19,19 @@ namespace CardsGame
             string playerName = Console.ReadLine();
             Console.WriteLine("And how much money did you bring today?");
             int bank = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Hello, {0}. Would you like to join a game of 21 right now");
+            Console.WriteLine("Hello, {0}. Would you like to join a game of 21 right now"+playerName);
             string answer = Console.ReadLine().ToLower();
             if (answer == "yes" || answer == "yeah" || answer == "y" || answer == "ya")
             {
+                
+                
                 Player player = new Player(playerName,bank);
+                player.Id = Guid.NewGuid();
+                using (StreamWriter file = new StreamWriter(@"C:\Users\VrinMan Dulay\Documents\test.txt", true))
+                {
+                    file.WriteLine(DateTime.Now);
+                    file.WriteLine(player.Id);
+                }
                 Game game = new TwentyOne();
                 game += player;
                 player.isActivePlaying = true;
