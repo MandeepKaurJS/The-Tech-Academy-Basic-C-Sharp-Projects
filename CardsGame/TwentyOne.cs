@@ -40,11 +40,32 @@ namespace CardsGame
                     Dealer.Deal(player.Hand);
                     if (i == 1)
                     {
-                        
+                        bool blackJack = TwentyOneRules.CheckForBlackJack(player.Hand);
+                        if (blackJack)
+                        {
+                            Console.WriteLine("BlackJck {0}: wins {1]}:",player.Name,Bets[player]);
+                            player.Balance += Convert.ToInt32(Bets[player] * 1.5 + Bets[player]);
+
+                            return;
+                        }
+                    }
+                }
+                Console.WriteLine("Dealer: ");
+                Dealer.Deal(Dealer.Hand);
+                if (i == 1)
+                {
+                    bool blackJack = TwentyOneRules.CheckForBlackJack(Dealer.Hand);
+                    if (blackJack)
+                    {
+                        Console.WriteLine("deals has BlackJAck EveryObe losses");
+                        foreach(KeyValuePair<Player,int> entry in Bets)
+                        {
+                            Dealer.Balacne += entry.Value;
+                        }
                     }
                 }
             }
-
+            
         }
         public override void ListPlayer()
         {

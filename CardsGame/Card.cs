@@ -10,8 +10,8 @@ namespace CardsGame
     {
         public Card()
         {
-           Suit = "Spades";
-            Face = "Two";
+           //Suit = "Spades";
+            //Face = "Two";
         }
         public Suit Suit { get; set; }
         public Face Face { get; set; }
