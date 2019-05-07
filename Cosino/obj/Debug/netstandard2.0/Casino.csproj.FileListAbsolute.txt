@@ -1,0 +1,9 @@
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Cosino\bin\Debug\netstandard2.0\Casino.deps.json
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Cosino\bin\Debug\netstandard2.0\Casino.dll
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Cosino\bin\Debug\netstandard2.0\Casino.pdb
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Cosino\obj\Debug\netstandard2.0\Casino.csprojAssemblyReference.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Cosino\obj\Debug\netstandard2.0\Casino.csproj.CoreCompileInputs.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Cosino\obj\Debug\netstandard2.0\Casino.AssemblyInfoInputs.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Cosino\obj\Debug\netstandard2.0\Casino.AssemblyInfo.cs
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Cosino\obj\Debug\netstandard2.0\Casino.dll
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Cosino\obj\Debug\netstandard2.0\Casino.pdb

@@ -5,3 +5,6 @@ C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\
 C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\CardsGame\obj\Debug\CardsGame.csproj.CoreCompileInputs.cache
 C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\CardsGame\obj\Debug\CardsGame.exe
 C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\CardsGame\obj\Debug\CardsGame.pdb
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\CardsGame\bin\Debug\Casino.dll
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\CardsGame\bin\Debug\Casino.pdb
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\CardsGame\obj\Debug\CardsGame.csproj.CopyComplete
