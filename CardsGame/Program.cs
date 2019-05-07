@@ -30,7 +30,7 @@ namespace CardsGame
                 game -= player;
                 Console.WriteLine("Thank you for playing!");
             }
-            Console.WriteLine("Feel free to loom around the casino. Bye for now.");
+            Console.WriteLine("Feel free to look around the casino. Bye for now.");
             Console.ReadLine();
             //Deck deck = new Deck();
             //deck.Shuffle(3);

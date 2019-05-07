@@ -47,5 +47,23 @@ namespace CardsGame
 
 
         }
+        public static bool IsBusted(List<Card> Hand)
+        {
+            int value = GetAllPossibleHandValues(Hand).Min();
+            if (value > 21) return true;
+            else return false;
+        }
+        public static bool showDealerStay(List<Card> Hand)
+        {
+            int[] possibleHandValues = GetAllPossibleHandValues(Hand);
+            foreach(int value in possibleHandValues)
+            {
+                if(value>16 && value < 22)
+                {
+                    return true;
+                }
+                
+            }return false;
+        }
     }
 }

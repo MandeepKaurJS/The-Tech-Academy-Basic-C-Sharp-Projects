@@ -65,7 +65,42 @@ namespace CardsGame
                     }
                 }
             }
-            
+            foreach(Player player in Players)
+            {
+                while (!player.Stay)
+                {
+                    Console.WriteLine("Your Cards are:");
+                    foreach (Card card in Player.Hand)
+                    {
+                        Console.Write("{0}:",card.ToString());
+                    }Console.WriteLine("\n\nHit or Stay");
+                    string answer = Console.ReadLine().ToLower();
+                    if (answer == "stay"){
+                        player.Stay = true;
+                        break;
+                    }else if (answer == "hit")
+                    {
+                        Dealer.Deal(player.Hand);
+                    }
+                    bool busted = TwentyOneRules.IsBusted(player.Hand);
+                    if (busted)
+                    {
+                        Dealer.Balacne += Bets[player];
+                        Console.WriteLine("{0} Busted! Ypu lose bet of {1}." +
+                            "Your balance is now{2}.", player.Name,Bets[player],player.Balance);
+                        Console.WriteLine("Do you want to play again?");
+                        answer = Console.ReadLine().ToLower();
+                        if (answer == "yes" || answer == "yeah")
+                        {
+                            player.isActivePlaying = true;
+                        }
+                        else
+                        {
+                            player.isActivePlaying = false;
+                        }
+                    }
+                }
+            }
         }
         public override void ListPlayer()
         {

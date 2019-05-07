@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace CardsGame
 {
-    public class Card
+    public struct Card
     {
-        public Card()
+        public override string ToString()
         {
-           //Suit = "Spades";
-            //Face = "Two";
+            return string.Format("{0} of {1]", Face, Suit);
         }
         public Suit Suit { get; set; }
         public Face Face { get; set; }
