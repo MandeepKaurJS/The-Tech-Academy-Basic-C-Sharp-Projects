@@ -9,13 +9,13 @@ namespace CardsGame
     public class Dealers
     {
         public string Name { get; set; }
-        public Deck Deck1 { get; set; }
-        public int balacne { get; set; }
+        public Deck Deck { get; set; }
+        public int Balacne { get; set; }
         public void Deal(List<Card> Hand)
         {
-            Hand.Add(Deck1.Cards.First());
-            Console.WriteLine(Deck1.Cards.First().ToString());
-            Deck1.Cards.RemoveAt(0);
+            Hand.Add(Deck.Cards.First());
+            Console.WriteLine(Deck.Cards.First().ToString());
+            Deck.Cards.RemoveAt(0);
         }
     }
 }

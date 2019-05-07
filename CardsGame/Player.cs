@@ -18,6 +18,19 @@ namespace CardsGame
         public string Name { get; set; }
         public bool isActivePlaying { get; set; }
         public bool Stay { get; set; }
+        public bool Bet(int amount)
+        {
+            if (Balance - amount < 0)
+            {
+                Console.WriteLine("You do not have enough to bet");
+                return false;
+            }
+            else
+            {
+                Balance -= amount;
+                return true;
+            }
+        }
 
         public static Game operator+(Game game,Player player)
         {
