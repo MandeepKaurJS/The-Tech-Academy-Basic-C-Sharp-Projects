@@ -15,7 +15,8 @@ namespace TextIntoFile
             Console.WriteLine("Type a number : ");
             string number =(Console.ReadLine());
             /** this will showes entered number and date and time***/
-            Console.WriteLine(number + " " + DateTime.Now);
+            
+            Console.WriteLine(number + " " + DateTime.Now.Hour);
             Console.ReadLine();
             /*** we will pass entered number from user and put it into text file by using this statement***/
             File.WriteAllText(@"C:\Users\VrinMan Dulay\Documents\test.txt", number.ToString());
