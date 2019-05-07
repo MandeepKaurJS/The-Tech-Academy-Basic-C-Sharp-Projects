@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CardsGame
 {
-    class Deck
+   public class Deck
     {
         public Deck()
         {
@@ -33,5 +33,24 @@ namespace CardsGame
             
         }
         public List<Card> Cards { get; set; }
+        public  void Shuffle( int times = 1)
+        {
+          
+            for (int i = 0; i < times; i++)
+            {
+                
+                List<Card> templist = new List<Card>();
+                Random random = new Random();
+                while (Cards.Count > 0)
+                {
+                    int randomIndex = random.Next(0, Cards.Count);
+                    templist.Add(Cards[randomIndex]);
+                    Cards.RemoveAt(randomIndex);
+                }
+                this.Cards = templist;
+
+            }
+           }
+
     }
 }
