@@ -1,0 +1,7 @@
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AdditionalFeaturesofCSharp\bin\Debug\AdditionalFeaturesofCSharp.exe.config
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AdditionalFeaturesofCSharp\bin\Debug\AdditionalFeaturesofCSharp.exe
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AdditionalFeaturesofCSharp\bin\Debug\AdditionalFeaturesofCSharp.pdb
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AdditionalFeaturesofCSharp\obj\Debug\AdditionalFeaturesofCSharp.csprojAssemblyReference.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AdditionalFeaturesofCSharp\obj\Debug\AdditionalFeaturesofCSharp.csproj.CoreCompileInputs.cache
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AdditionalFeaturesofCSharp\obj\Debug\AdditionalFeaturesofCSharp.exe
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\AdditionalFeaturesofCSharp\obj\Debug\AdditionalFeaturesofCSharp.pdb
