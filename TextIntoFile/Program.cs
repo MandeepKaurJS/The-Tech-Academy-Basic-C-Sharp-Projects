@@ -17,9 +17,11 @@ namespace TextIntoFile
             /** pass user input to Datetime variable and used Tryparse to chechk for exception***/
             DateTime hours;
             DateTime.TryParse(number.ToString(),out hours);
-            Console.WriteLine(""+ "Time in hours:  " + hours.ToString("h:mm"));
+            Console.WriteLine(""+ "Time in hours:  " + hours.ToString());
             Console.ReadLine();
-          
+            DateTime show=new DateTime();
+            Console.WriteLine(show.Hour);
+            Console.ReadLine();
             /*** we will pass entered number from user and put it into text file by using this statement***/
             File.WriteAllText(@"C:\Users\VrinMan Dulay\Documents\test.txt", number.ToString());
             /***by using this file stream writers i will write to file each time when we type***/
