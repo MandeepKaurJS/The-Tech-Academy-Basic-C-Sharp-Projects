@@ -6,4 +6,3 @@ C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\
 C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Cosino\obj\Debug\netstandard2.0\Casino.AssemblyInfo.cs
 C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Cosino\obj\Debug\netstandard2.0\Casino.dll
 C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Cosino\obj\Debug\netstandard2.0\Casino.pdb
-C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Cosino\obj\Debug\netstandard2.0\Casino.csprojAssemblyReference.cache

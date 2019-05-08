@@ -47,7 +47,22 @@ namespace CardsGame
                 player.isActivePlaying = true;
                 while(player.isActivePlaying && player.Balance > 0)
                 {
-                    game.Play();
+                    try
+                    {
+                        game.Play();
+                    }
+                    catch (FraudException)
+                    {
+                        Console.WriteLine("Seurity! Kick this person out from Casino.");
+                        Console.ReadLine();
+                        return;
+                    }
+                    catch (Exception)
+                    {
+                        Console.WriteLine("An error Occured. Please Contact to your system administrator");
+                        return;
+                    }
+                    
                 }
                 game -= player;
                 Console.WriteLine("Thank you for playing!");

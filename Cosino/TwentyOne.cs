@@ -33,6 +33,10 @@ namespace Cosino
                     if (!validAnswer) Console.WriteLine("please enter only digits,no decimal");
                 }
                 //bet =Convert.ToInt32( Console.ReadLine());
+                if (bet < 0)
+                {
+                    throw new FraudException();
+                }
                 bool sucessfullyBet = player.Bet(bet);
                 if (!sucessfullyBet)
                 {
