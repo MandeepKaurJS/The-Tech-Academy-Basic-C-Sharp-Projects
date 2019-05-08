@@ -16,7 +16,7 @@ namespace ShowAgeProject
                 int age =Convert.ToInt32( Console.ReadLine());
                 Console.ReadLine();
                 int year = DateTime.Now.Year - age;
-                if (age == 0||age<0)
+                if (age == 0 || age < 0)
                 {
                     Console.WriteLine("Enter valid number ,not negative or 0 number.");
                     Console.ReadLine();
@@ -25,7 +25,7 @@ namespace ShowAgeProject
                 Console.WriteLine(year);
                 Console.ReadLine();
             }
-            catch (ArgumentException)
+            catch (System.ArgumentException)
             {
                 Console.WriteLine("Enter only digits.");
             }
