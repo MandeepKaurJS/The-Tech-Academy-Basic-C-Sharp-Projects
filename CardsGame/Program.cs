@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.IO;
 using Cosino;
+using System.Data.SqlClient;
+
 namespace CardsGame
 {
     class Program
@@ -51,15 +53,18 @@ namespace CardsGame
                     {
                         game.Play();
                     }
-                    catch (FraudException)
+                    catch (FraudException ex)
                     {
-                        Console.WriteLine("Seurity! Kick this person out from Casino.");
+                        Console.WriteLine(ex.Message);
+                        updateDBWtihException(ex);
                         Console.ReadLine();
                         return;
                     }
-                    catch (Exception)
+                    catch (Exception ex)
                     {
                         Console.WriteLine("An error Occured. Please Contact to your system administrator");
+                        updateDBWtihException(ex);
+                        Console.ReadLine();
                         return;
                     }
                     
@@ -81,8 +86,29 @@ namespace CardsGame
         }
         private static void updateDBWtihException(Exception ex)
         {
-            string connectionstring = "Data Source=(localdb)ProjectsV13;Initial Catalog=TwentyOneGame;Integrated Security=True;Connect Timeout=30;" +
-                "Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            string connectionstring = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=TwentyOneGame;
+                                    Integrated Security=True;Connect Timeout=30;" +
+                                    "Encrypt=False;TrustServerCertificate=False;" +
+                                    "ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            string querystring = @"INSERT INTO Exception(ExceptionType,ExceptionMessage,TimeStamp)values
+                                (@ExceptionType,@ExceptionMessage,@TimeStamp)";
+            using (SqlConnection connection = new SqlConnection(connectionstring))
+            {
+                SqlCommand command = new SqlCommand(querystring, connection);
+                command.Parameters.Add("@ExceptionType", System.Data.SqlDbType.VarChar);
+                command.Parameters.Add("@ExceptionMessage", System.Data.SqlDbType.VarChar);
+                command.Parameters.Add("@TimeStamp", System.Data.SqlDbType.DateTime);
+                command.Parameters["@ExceptionType"].Value = ex.GetType().ToString();
+                command.Parameters["@ExceptionMessage"].Value = ex.Message;
+                command.Parameters["@TimeStamp"].Value = DateTime.Now;
+
+                connection.Open();
+                command.ExecuteNonQuery();
+                connection.Close();
+
+
+            }
+
         }
        
     }
