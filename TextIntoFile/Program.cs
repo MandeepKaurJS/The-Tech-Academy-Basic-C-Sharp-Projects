@@ -14,11 +14,12 @@ namespace TextIntoFile
             /* ask for a number to user*/
             Console.WriteLine("Type a number : ");
             string number =(Console.ReadLine());
-            /** this will showes entered number and date and time***/
-            DateTime hours =  DateTime.Now;
-            DateTime.TryParse(number,out hours);
-            Console.WriteLine(""+ "Time in hours:  " + hours);
+            /** pass user input to Datetime variable and used Tryparse to chechk for exception***/
+            DateTime hours;
+            DateTime.TryParse(number.ToString(),out hours);
+            Console.WriteLine(""+ "Time in hours:  " + hours.ToString("h:mm"));
             Console.ReadLine();
+          
             /*** we will pass entered number from user and put it into text file by using this statement***/
             File.WriteAllText(@"C:\Users\VrinMan Dulay\Documents\test.txt", number.ToString());
             /***by using this file stream writers i will write to file each time when we type***/
@@ -29,7 +30,7 @@ namespace TextIntoFile
             }
             /***By using this statement we can read the text entered by user***/
 
-            //number = File.ReadAllText(@"C:\Users\VrinMan Dulay\Documents\test.txt");
+            number = File.ReadAllText(@"C:\Users\VrinMan Dulay\Documents\test.txt");
         }
     }
 }
