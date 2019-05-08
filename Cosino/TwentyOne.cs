@@ -24,7 +24,15 @@ namespace Cosino
             Console.WriteLine("Place your bet!");
             foreach(Player player in Players)
             {
-                int bet =Convert.ToInt32( Console.ReadLine());
+                bool validAnswer = false;
+                int bet = 0;
+                while (!validAnswer)
+                {
+                    
+                    validAnswer = int.TryParse(Console.ReadLine(), out bet);
+                    if (!validAnswer) Console.WriteLine("please enter only digits,no decimal");
+                }
+                //bet =Convert.ToInt32( Console.ReadLine());
                 bool sucessfullyBet = player.Bet(bet);
                 if (!sucessfullyBet)
                 {
