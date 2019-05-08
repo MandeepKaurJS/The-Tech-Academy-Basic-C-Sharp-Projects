@@ -79,6 +79,11 @@ namespace CardsGame
             //Console.ReadLine();
 
         }
+        private static void updateDBWtihException(Exception ex)
+        {
+            string connectionstring = "Data Source=(localdb)ProjectsV13;Initial Catalog=TwentyOneGame;Integrated Security=True;Connect Timeout=30;" +
+                "Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        }
        
     }
 }

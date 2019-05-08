@@ -8,31 +8,29 @@ namespace AdditionalFeaturesofCSharp
 {
     class Program
     {
-        string name;
-        int Age;
-        int Wage;
-        public Program(string Name,int age)
-        {
-            name = Name;
-            Age = age;
-            
-        }
-        public Program(int wage) 
-        {
-            Wage = wage;
+        private int Age;
+        private string TheName;
+        private string HairColour;
 
-        }
-        public void showResults()
+
+        public Program(int theAge) : this(theAge, "", "")
         {
-            Console.WriteLine("Constructors with 2 parameters: "+name+"\n"+Age);
-            Console.ReadLine();
-           
+            //One parameter
         }
-        public void showOneParameter()
+
+        public Program(int theAge, string theName) : this(theAge, theName, "")
         {
-            Console.WriteLine("Constructors with 1 parameter: " + Wage);
-            Console.ReadLine();
+            //Two Parameters
         }
+
+        public Program(int theAge, string theName, string theHairColour)
+        {
+            //Three parameters
+            Age = theAge;
+            TheName = theName;
+            HairColour = theHairColour;
+        }
+
 
         static void Main(string[] args)
         {
@@ -41,14 +39,18 @@ namespace AdditionalFeaturesofCSharp
             Console.WriteLine("Constant string and var Age: " + Name + "\n " + age);
             Console.ReadLine();
             /*** if I pass Const Name value to Constructor it will remain the same not changable any more ****/
-            var PassCons = new Program(Name, age);
-            PassCons.showResults();
+            var PassCons = new Program(24);
+            Console.WriteLine("Employee Age: "+PassCons.Age);
             /**** This is Constructor with two parameter***/
-            var cons = new Program("Mandeep",26);
-            cons.showResults();
-            /****Constructor with no parameters ***/
-            var cons2 = new Program(wage:2000);
-            cons2.showOneParameter();
+            var cons = new Program(24,"Mandeep");
+            Console.WriteLine("Employee Age and Name: "+"Age: "+ cons.Age+"\nName: "+cons.TheName);
+            Console.ReadLine();
+            /*** Consrutor with one parameter***/
+            var consone = new Program(24,"Mandeep","Black");
+            Console.WriteLine("Eployee full info: "+"Age: "+consone.Age+"\nName: "+consone.TheName+"\nHaircolor: "+consone.HairColour);
+            Console.ReadLine();
+            
+            
            
 
 
