@@ -20,6 +20,21 @@ namespace CardsGame
             Console.WriteLine("Welcome to the Grand Hotel and Casino." +
                 "Let's start by telling me your name: ");
             string playerName = Console.ReadLine();
+            if (playerName.ToLower() == "admin")
+            {
+                List<ExceptionEntity> Exceptions = ReadExceptions();
+                foreach(var exception in Exceptions)
+                {
+                    Console.WriteLine(exception.Id + "| ");
+                    Console.WriteLine(exception.ExceptionType + "| ");
+                    Console.WriteLine(exception.ExceptionMessage + "| ");
+                    Console.WriteLine(exception.TimeStamp + "| ");
+                    Console.WriteLine();
+
+                }
+                Console.ReadLine();
+                return;
+            }
             bool Validanswer = false;
             int bank = 0;
             while (!Validanswer)
@@ -110,6 +125,31 @@ namespace CardsGame
             }
 
         }
-       
+       private static List<ExceptionEntity> ReadExceptions()
+        {
+            string connectionstring = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=TwentyOneGame;
+                                    Integrated Security=True;Connect Timeout=30;" +
+                                    "Encrypt=False;TrustServerCertificate=False;" +
+                                    "ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            string querystring = @"select Id,ExceptionType,ExceptionMessage,Timestamp from Exception";
+            List<ExceptionEntity> Exceptions = new List<ExceptionEntity>();
+            using (SqlConnection connection = new SqlConnection(connectionstring))
+            {
+                SqlCommand command = new SqlCommand(querystring, connection);
+                connection.Open();
+                SqlDataReader reader = command.ExecuteReader();
+                while (reader.Read())
+                {
+                    ExceptionEntity exception = new ExceptionEntity();
+                    exception.Id = Convert.ToInt32(reader["Id"]);
+                    exception.ExceptionType = (reader["ExceptionType"].ToString());
+                    exception.ExceptionMessage = (reader["ExceptionMessage"].ToString());
+                    exception.TimeStamp =Convert.ToDateTime (reader["TimeStamp"]);
+                    Exceptions.Add(exception);
+                }
+                connection.Close();
+            }
+            return Exceptions;
+        }
     }
 }
