@@ -38,14 +38,15 @@ namespace AdditionalFeaturesofCSharp
             var age = 25;
             Console.WriteLine("Constant string and var Age: " + Name + "\n " + age);
             Console.ReadLine();
-            /*** if I pass Const Name value to Constructor it will remain the same not changable any more ****/
-            var PassCons = new Program(24);
+            /***Consrutor with one parameter  ****/
+            var PassCons = new Program(age);
             Console.WriteLine("Employee Age: "+PassCons.Age);
             /**** This is Constructor with two parameter***/
-            var cons = new Program(24,"Mandeep");
+            /***if I pass Const  value to Constructor it will remain the same not changable any more****/
+            var cons = new Program(24,Name);
             Console.WriteLine("Employee Age and Name: "+"Age: "+ cons.Age+"\nName: "+cons.TheName);
             Console.ReadLine();
-            /*** Consrutor with one parameter***/
+            /***Consructor with three parameters ***/
             var consone = new Program(24,"Mandeep","Black");
             Console.WriteLine("Eployee full info: "+"Age: "+consone.Age+"\nName: "+consone.TheName+"\nHaircolor: "+consone.HairColour);
             Console.ReadLine();
