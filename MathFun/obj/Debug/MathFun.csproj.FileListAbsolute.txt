@@ -1,7 +1,7 @@
 C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathFun\bin\Debug\MathFun.exe.config
 C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathFun\bin\Debug\MathFun.exe
 C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathFun\bin\Debug\MathFun.pdb
-C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathFun\obj\Debug\MathFun.csprojAssemblyReference.cache
 C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathFun\obj\Debug\MathFun.csproj.CoreCompileInputs.cache
 C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathFun\obj\Debug\MathFun.exe
 C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathFun\obj\Debug\MathFun.pdb
+C:\Users\VrinMan Dulay\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathFun\obj\Debug\MathFun.csprojAssemblyReference.cache

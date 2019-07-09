@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MathFun
 {
-     class userMathod
+     public class userMathod
     {
         public userMathod()
         {
