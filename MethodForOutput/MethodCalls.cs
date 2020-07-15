@@ -26,7 +26,7 @@ namespace MethodForOutput
             Console.WriteLine("Enter another number");
             ans = Convert.ToDouble(Console.ReadLine());
             y = ans* 2;
-            Console.WriteLine("number after diving deci mal number: "+y);
+            Console.WriteLine("number after divding decimal number: "+y);
         }
     }
 }

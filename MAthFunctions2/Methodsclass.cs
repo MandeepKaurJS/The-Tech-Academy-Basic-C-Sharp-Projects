@@ -20,5 +20,7 @@ namespace MAthFunctions2
             num3 = num - 2;
             Console.WriteLine(num3);
         }
+       
+        
     }
 }

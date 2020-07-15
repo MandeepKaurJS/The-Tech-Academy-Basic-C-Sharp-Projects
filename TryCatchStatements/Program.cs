@@ -14,7 +14,7 @@ namespace TryCatchStatements
             {
 
                 int[] number = { 2, 3, 4, 5, 6, 7, 8 };
-                Console.WriteLine("Pick any number");
+                Console.WriteLine("Pick any number.");
                 int num = Convert.ToInt32(Console.ReadLine());
                 for (var i = 0; i < number.Length; i++)
                 {
